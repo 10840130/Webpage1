@@ -1,0 +1,130 @@
+/*購物車*/
+    .cart-container {
+      width: 1200px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .cart {
+      width: 1200px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    table {
+      padding: 10px;
+      margin: auto;
+      border-collapse: collapse;
+
+    }
+
+
+
+    table,
+    th,
+    tr,
+    td {
+      border: 1px solid #E0E0E0;
+    }
+
+    th,
+    tr {
+      height: 30px;
+    }
+
+    thead {
+      background-color: #95CACA;
+    }
+
+    th {
+      height: 30px;
+    }
+
+
+    .pd-name {
+      width: 600px;
+    }
+
+    .cancel {
+      width: 100px;
+      text-align: center;
+    }
+
+    .pd-number {
+      width: 140px;
+      text-align: center;
+    }
+
+    .pd-price,
+    .pd-total {
+      width: 150px;
+      text-align: right;
+    }
+
+    .purchase-btn {
+      width: 150px;
+      height: 40px;
+      margin: 10px;
+    }
+
+    .pd-purchase {
+      width: 350px;
+      float: right;
+      margin: 50px 0;
+      border: 1px solid #E0E0E0;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .purchase-hr {
+      box-sizing: border-box;
+      margin: 200px 0 5px;
+    }
+
+    .cart-footer {
+      box-sizing: border-box;
+      height: 40px;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+
+    }
+
+    .msg-box {
+      position: relative;
+      text-align: right;
+      margin-right: 200px;
+    }
+
+    .cus-data {
+      width: 400px;
+      margin: 10px;
+      display: block;
+    }
+
+    .data {
+      display: block;
+    }
+
+    .data input[type="text"] {
+      width: 300px;
+    }
+
+    .cus-data .data {
+      margin: 5px 0;
+    }
+
+    .data span {
+      width: 200px;
+    }
+
+    .pd-cl {
+      cursor: pointer;
+      border: black 1px solid;
+      padding: 3px;
+    }

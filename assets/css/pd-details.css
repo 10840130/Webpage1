@@ -1,0 +1,82 @@
+/*明細清單*/
+* {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+    }
+
+    .order-details {
+      width: 1000px;
+      margin: 100px auto;
+      padding: 50px 0 20px;
+      border: 3px solid #E0E0E0;
+    }
+
+
+    h1 {
+      text-align: center;
+    }
+
+    .order {
+      width: 800px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    table {
+      padding: 10px;
+      margin: auto;
+      border-collapse: collapse;
+      display: table;
+    }
+
+    table,
+    th,
+    tr,
+    td {
+      border: 1px solid #E0E0E0;
+    }
+
+    tr {
+      display: table-row;
+    }
+
+    td {
+      height: 60px;
+      display: table-cell;
+    }
+
+    .od-name {
+      width: 400px;
+    }
+
+
+    .od-number,
+    .od-price,
+    .od-total {
+      width: 80px;
+      text-align: center;
+    }
+
+    .od-ul {
+      margin-bottom: 100px;
+    }
+
+    table li {
+      padding: 3px;
+    }
+
+    .od-li {
+      text-align: right;
+    }
+
+    .sum-price {
+      text-align: right;
+    }
+
+    .bthp {
+      text-align: center;
+      margin: 20px 0 0;
+    }

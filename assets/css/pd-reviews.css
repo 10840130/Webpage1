@@ -1,0 +1,43 @@
+/*pd-reviews*/
+    .review {
+      width: 1000px;
+      border: 1px solid #E0E0E0;
+      margin: 60px auto;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    body {
+      margin: auto;
+    }
+
+    .boxtitle {
+      font-weight: 800;
+      margin: 20px 10px;
+    }
+
+
+
+    .fb-mc {
+      display: flex;
+      flex-direction: row;
+      margin: 10px;
+      text-align: left;
+    }
+
+    .rank {
+      margin: 3px 3px 0 10px;
+    }
+
+    .fbbtn {
+      width: 100px;
+      height: 40px;
+      position: relative;
+      left: 40%;
+      font-size: 14pt;
+    }
+
+    .rt-box ::-webkit-input-placeholder {
+      font-size: 16pt;
+    }

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>首頁</title>
+  <script src="https://kit.fontawesome.com/fced69ddc3.js" crossorigin="anonymous"></script>
+
+  <style>
+    @import url(assets/css/header.css);
+    @import url(assets/css/header-logout.css);
+    @import url(assets/css/animatead.css);
+    @import url(assets/css/hotpd.css);
+    @import url(assets/css/footer2.css);
+  </style>
+</head>
+
+<body>
+  <!--頁首 start-->
+  <div class="main-header">
+
+    <div class="logo-container">
+      <a href="index.html" class="logo-container">
+        <h1>Sporting<span>Goods</span></h1>
+      </a>
+    </div>
+    <div class="container">
+      <ul class="navigation">
+        <li class="dropdown">
+          <span class="dropbtn">商品</span>
+          <div class="dropdown-content">
+            <a href="pages/pd-list.html">商品 1</a>
+            <a href="pages/pd-list.html">商品 2</a>
+            <a href="pages/pd-list.html">商品 3</a>
+          </div>
+        </li>
+        <a href="pages/sign-in.html">
+          <li>登入</li>
+        </a>
+        <a href="pages/registered.html">
+          <li>註冊</li>
+        </a>
+
+        <a href="pages/cart.html">
+          <li>購物車</li>
+        </a>
+        <a href="pages/member.html">
+          <li>會員資訊</li>
+        </a>
+      </ul>
+      <form class="searchbar">
+        <input type="search">
+        <button><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+  <!--頁首 end-->
+  <!--頁首logout start-->
+  <div class="main-header-logout">
+
+    <div class="logo-container">
+      <a href="index.html" class="logo-container">
+        <h1>Sporting<span>Goods</span></h1>
+      </a>
+    </div>
+    <div class="container">
+      <ul class="navigation">
+        <li class="dropdown">
+          <span class="dropbtn">商品</span>
+          <div class="dropdown-content">
+            <a href="pages/pd-list.html">商品 1</a>
+            <a href="pages/pd-list.html">商品 2</a>
+            <a href="pages/pd-list.html">商品 3</a>
+          </div>
+        </li>
+
+        <a href="#">
+          <span style="font-size: 13pt;">用戶名稱</span>
+          <li style="font-size: 13pt; padding-left: 5px;">登出</li>
+        </a>
+
+
+        <a href="pages/cart.html">
+          <li>購物車</li>
+        </a>
+        <a href="pages/member.html">
+          <li>會員資訊</li>
+        </a>
+      </ul>
+      <form class="searchbar">
+        <input type="search">
+        <button><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+  <!--頁首logout end-->
+  <!--跑馬燈 start-->
+  <marquee direction="right" height="30" scrollamount="10">本店目前僅提供宅配取貨服務</marquee>
+  <!--跑馬燈 end-->
+  <!--活動式廣告 start-->
+  <div class="slideshow-container">
+
+    <div class="slideshow">
+      <img src="assets/img/cat1.jpg" style="width:1200px;height:800px">
+    </div>
+
+    <div class="slideshow">
+      <img src="assets/img/cat2.jpg" style="width:1200px;height:800px">
+    </div>
+
+    <div class="slideshow">
+      <img src="assets/img/cat3.jpg" style="width:1200px;height:800px">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="selection" onclick="currentSlide(1)"></span>
+    <span class="selection" onclick="currentSlide(2)"></span>
+    <span class="selection" onclick="currentSlide(3)"></span>
+  </div>
+  <script src="assets/js/animatead.js">
+  </script>
+  <!--活動式廣告 end-->
+
+
+
+  <!--推薦熱門商品 start-->
+  <h1>
+    熱銷商品
+  </h1>
+  <div class="hotgoods">
+    <div class="goods">
+      <img src="assets/img/cat1.jpg" alt="" style="width: 300px;">
+      <div class="container">
+        <h4><b>熱門商品1</b></h4>
+      </div>
+    </div>
+    <div class="goods">
+      <img src="assets/img/cat2.jpg" alt="" style="width: 300px;">
+      <div class="container">
+        <h4><b>熱門商品2</b></h4>
+
+      </div>
+    </div>
+    <div class="goods">
+      <img src="assets/img/cat3.jpg" alt="" style="width: 300px;">
+      <div class="container">
+        <h4><b>熱門商品3</b></h4>
+      </div>
+    </div>
+  </div>
+  <!--推薦熱門商品 end-->
+  <!--頁尾 start-->
+  <div class="main-footer">
+    <div class="container">
+      本商場僅提供宅配取貨
+    </div>
+    <div class="copyright">
+      &copy;CYIM | <a href="pages/Aboutus.html">關於我們</a>
+    </div>
+    <div class="bn">
+      <h3>瀏覽人數:<span></span></h3>
+    </div>
+  </div>
+  <!--頁尾 end-->
+</body>
+
+</html>

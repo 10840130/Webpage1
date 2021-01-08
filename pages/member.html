@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/fced69ddc3.js" crossorigin="anonymous"></script>
+  <style>
+    @import url(../assets/css/header.css);
+    @import url(../assets/css/header-logout.css);
+    @import url(../assets/css/footer.css);
+    @import url(../assets/css/side-menu02.css);
+    @import url(../assets/css/member.css);
+  </style>
+</head>
+
+<body>
+  <!--頁首 start-->
+  <div class="main-header">
+
+    <div class="logo-container">
+      <a href="../index.html" class="logo-container">
+        <h1>Sporting<span>Goods</span></h1>
+      </a>
+    </div>
+    <div class="container">
+      <ul class="navigation">
+        <li class="dropdown">
+          <span class="dropbtn">商品</span>
+          <div class="dropdown-content">
+            <a href="pd-list.html">商品 1</a>
+            <a href="pd-list.html">商品 2</a>
+            <a href="pd-list.html">商品 3</a>
+          </div>
+        </li>
+        <a href="sign-in.html">
+          <li>登入</li>
+        </a>
+        <a href="registered.html">
+          <li>註冊</li>
+        </a>
+
+        <a href="cart.html">
+          <li>購物車</li>
+        </a>
+        <a href="member.html">
+          <li>會員資訊</li>
+        </a>
+      </ul>
+      <form class="searchbar">
+        <input type="search">
+        <button><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+  <!--頁首 end-->
+  <!--頁首logout start-->
+  <div class="main-header-logout">
+
+    <div class="logo-container">
+      <a href="index.html" class="logo-container">
+        <h1>Sporting<span>Goods</span></h1>
+      </a>
+    </div>
+    <div class="container">
+      <ul class="navigation">
+        <li class="dropdown">
+          <span class="dropbtn">商品</span>
+          <div class="dropdown-content">
+            <a href="pd-list.html">商品 1</a>
+            <a href="pd-list.html">商品 2</a>
+            <a href="pd-list.html">商品 3</a>
+          </div>
+        </li>
+
+        <a href="#">
+          <span style="font-size: 13pt;">用戶名稱</span>
+          <li style="font-size: 13pt; padding-left: 5px;">登出</li>
+        </a>
+
+
+        <a href="cart.html">
+          <li>購物車</li>
+        </a>
+        <a href="member.html">
+          <li>會員資訊</li>
+        </a>
+      </ul>
+      <form class="searchbar">
+        <input type="search">
+        <button><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+  <!--頁首logout end-->
+  <!--個人資料 end-->
+  <div class="rgd">
+
+    <div class="member-data">
+      <div class="container">
+        <div class="rg-header">
+          <h2>會員檔案</h2>
+          <hr>
+        </div>
+        <div class="field-title">
+          <label>收件人姓名</label>
+        </div>
+        <div class="field-info">
+          <input type="text" placeholder="name">
+        </div>
+
+        <div class="field-title">
+          <label>電子郵件</label>
+
+        </div>
+        <div class="field-info">
+          <input type="text" placeholder="e-mail" name="mail">
+        </div>
+
+        <div class="field-title">
+          <label>手機號碼</label>
+
+        </div>
+        <div class="field-info">
+          <input type="text" placeholder="phone number">
+        </div>
+
+        <div class="field-title">
+          <label>出生日期</label>
+
+        </div>
+        <div class="field-info">
+          <input type="date">
+        </div>
+
+        <div class="field-title">
+          <label>收件地址</label>
+
+        </div>
+        <div class="field-info">
+          <input type="text" placeholder="address" style="width: 500px;">
+        </div>
+        <div class="field-title">
+        </div>
+        <div class="field-info">
+          <button type="submit" class="lgbtn" onclick="confirm()">儲存</button>
+        </div>
+      </div>
+      <!--側邊menu start-->
+      <div class="side-menu">
+        <div class="menu-title"></div>
+        <div class="menu">
+          <ul class="menu-list">
+            <li class="menu-item"><a href="member.html" class="menu-item-a">會員檔案</a></li>
+            <li class="menu-item"><a href="pd-data.html" class="menu-item-a">訂單資料</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--側邊menu end-->
+  </div>
+  <!--個人資料 end-->
+  <!--頁尾 start-->
+  <div class="main-footer">
+    <div class="container">
+      本商場僅提供宅配取貨
+    </div>
+    <div class="copyright">
+      &copy;CYIM | <a href="Aboutus.html">關於我們</a>
+    </div>
+    <div class="bn">
+      <h3>瀏覽人數:<span></span></h3>
+    </div>
+  </div>
+  <!--頁尾 end-->
+  <!--儲存按紐-->
+  <script src="../assets/js/confirmbtn.js">
+
+  </script>
+</body>
+
+</html>

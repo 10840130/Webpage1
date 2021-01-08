@@ -1,0 +1,92 @@
+/*商品控管*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.order-data {
+
+  width: 1200px;
+  margin: auto;
+}
+
+
+h1 {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.order {
+
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+table,
+th,
+tr,
+td {
+  border: 1px solid #E0E0E0;
+}
+
+thead {
+  background-color: #95CACA;
+}
+
+th {
+  height: 30px;
+}
+
+td {
+  height: 60px;
+}
+
+.od-name {
+  width: 300px;
+}
+
+.od-id {
+  text-align: center;
+  width: 80px;
+}
+
+
+.od-number {
+  width: 80px;
+  text-align: center;
+}
+
+.od-modify,
+.od-delete {
+  width: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.od-price {
+  width: 100px;
+  text-align: right;
+}
+
+.a-detail:hover,
+.a-feedback:hover {
+  border-bottom: black 1px solid;
+  padding-bottom: 1px;
+}
+
+.add-prod {
+  float: right;
+  position: relative;
+  right: 100px;
+  font-size: 16pt;
+  margin: 400px 0 100px;
+}

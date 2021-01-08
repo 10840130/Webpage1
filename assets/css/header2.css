@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 標楷體;
+}
+
+.main-header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 30px 0;
+  background-color: #c3dade;
+  font-size: 16pt;
+}
+
+
+.logo-container {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo-container h1 {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Rockwell;
+  font-size: 32px;
+  font-weight: 200;
+  position: relative;
+  left: 100px;
+}
+
+
+
+.logo-container h1 span {
+  font-family: Rockwell;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+
+.main-header .container {
+  display: flex;
+  position: relative;
+  left: 650px;
+}
+
+.navigation {
+  height: 100%;
+}
+
+.navigation>a {
+  height: 100%;
+  display: table;
+  float: right;
+  padding: 0 20px;
+}
+
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.dropbtn {
+  background-color: none;
+}
+
+.dropdown {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 140px;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+a {
+  color: black;
+}
+
+.searchbar {
+  display: flex;
+}

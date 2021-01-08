@@ -1,0 +1,42 @@
+/*推薦熱門商品*/
+h1,
+.hotgoods {
+  vertical-align: middle;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hotgoods {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.goods {
+  text-align: center;
+  margin: 30px 100px 200px;
+  transform: scale(1, 1);
+  transition: all 1s ease-out;
+}
+
+.goods .container {
+  margin-top: 20px;
+}
+
+.goods:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.2, 1.2);
+
+}
+
+marquee {
+  background-color: #F0F0F0;
+  font-size: 16pt;
+}

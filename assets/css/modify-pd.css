@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 標楷體;
+  line-height: 1.5;
+  font-size: 16pt;
+}
+
+
+
+.goodintro {
+  width: 1200px;
+  display: flex;
+  margin: auto;
+  padding: 100px 0;
+}
+
+.product {
+  width: 500px;
+  height: 500px;
+  border: black 1px solid;
+}
+
+.info {
+  margin: 0 0 0 100px;
+}
+
+.total-number input {
+  width: 40px;
+}
+
+.total-number,
+.item-price,
+.item-intro,
+.item-name {
+  margin: 10px 0;
+}

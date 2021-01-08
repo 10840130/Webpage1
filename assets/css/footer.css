@@ -1,0 +1,20 @@
+.main-footer {
+  width: 100%;
+  background-color: #c3dade;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+}
+
+.main-footer .container {
+  display: flex;
+  margin: 20px auto 0;
+
+}
+
+.copyright {
+  text-align: center;
+  margin: 10px 0px 0px;
+  padding: 10px 0px;
+}

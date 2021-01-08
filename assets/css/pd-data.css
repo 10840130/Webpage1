@@ -1,0 +1,85 @@
+/*訂單資料*/
+.order-data {
+      display: flex;
+      flex-direction: row-reverse;
+      width: 1200px;
+      margin: auto;
+    }
+
+
+    h1 {
+      text-align: center;
+      margin: 30px auto;
+    }
+
+    .order {
+
+      display: flex;
+      flex-direction: column;
+    }
+
+    table {
+      padding: 10px;
+      border-collapse: collapse;
+    }
+
+    table,
+    th,
+    tr,
+    td {
+      border: 1px solid #E0E0E0;
+    }
+
+    thead {
+      background-color: #95CACA;
+    }
+
+    th {
+      height: 30px;
+    }
+
+    td {
+      height: 60px;
+    }
+
+    .od-name {
+      width: 300px;
+    }
+
+    .od-time {
+      text-align: center;
+      width: 80px;
+    }
+
+
+    .od-number {
+      width: 80px;
+      text-align: center;
+    }
+
+    .od-feedback {
+      width: 50px;
+      text-align: center;
+    }
+
+    .od-state {
+      width: 200px;
+      text-align: center;
+    }
+
+    .od-detail {
+      width: 80px;
+      text-align: center;
+    }
+
+    .od-price,
+    .od-total {
+      width: 100px;
+      text-align: right;
+    }
+
+    .a-detail:hover,
+    .a-feedback:hover {
+      border-bottom: black 1px solid;
+      padding-bottom: 1px;
+    }

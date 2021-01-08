@@ -1,0 +1,59 @@
+/*註冊*/
+h2 {
+      text-align: center;
+      margin: 100px 0 0;
+    }
+
+    .rgd input {
+      font-size: 12pt;
+    }
+
+    .rgd {
+      width: 1200px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .rgd>.container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background-color: #E0E0E0;
+      width: 50%;
+    }
+
+    .lgbtn {
+      background-color: #84C1FF;
+      color: white;
+      border: none;
+      padding: 14px 20px;
+      margin: 8px 0;
+      width: 100px;
+
+    }
+
+    .rgdf {
+      margin: 6px;
+      padding: 14px;
+      display: flex;
+    }
+
+    .rgtitle {
+      text-align: right;
+      width: 100px;
+    }
+
+    .rginfo {
+      text-align: right;
+    }
+
+    .rgdf input {
+      width: 180px;
+    }
+
+    label {
+      padding: 0 5px;
+    }

@@ -1,0 +1,24 @@
+/*側邊選單*/
+    .menu-title {
+      width: 250px;
+      height: 90px;
+      margin-bottom: 40px;
+    }
+
+    .side-menu {
+      width: 250px;
+      text-align: center;
+      background-color: #F0F0F0;
+    }
+
+
+
+    .menu-item {
+      font-size: 13pt;
+      margin-bottom: 30px;
+
+    }
+
+    .menu-item-a:hover {
+      border-bottom: solid 1px black;
+    }
